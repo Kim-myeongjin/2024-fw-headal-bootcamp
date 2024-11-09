@@ -1,23 +1,32 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>자기소개</title>
     <link rel="stylesheet" href="style.css">
+    <title>ChatGPT</title>
 </head>
 <body>
-    <div class="container">
-        <h1>자기소개</h1>
-        <p>저는 김명진입니다.</p>
-        <h2>MBTI</h2>
-        <p>ENTP</p>
-        <h3>취미</h3>
-        <ul>
-            <li>축구</li>
-            <li>게임</li>
-            <li>음악감상</li>
-        </ul>
+    <div class = "container">
+        <div class = "header">
+            <h3>Myeongjin ChatGpt Bot</h3>        
+        </div>
+
+        <div class = "info">
+            <a href="https://github.com/Kim-myeongjin">Made by Myeongjin</a>
+        </div>
+    
+        <div class = "input-container">
+            <input type = "text" id = "user-input" placeholder="Send a message">
+            <button id = "send-button">
+                <i class="fa-solid fa-paper-plane" id="button-icon"></i>
+            </button>
+        </div>
     </div>
+
+
+
+    <script src="https://kit.fontawesome.com/03cdac03e2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>
